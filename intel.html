@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff5f5">
+  <title>When Two Worlds Collide ♥</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <header class="site-heading">
+    <span class="heading-heart">♥</span>
+    <p>A LITTLE BOOK FOR SOMEONE SPECIAL</p>
+    <span class="heading-heart">♥</span>
+  </header>
+
+  <main class="book-stage">
+    <div class="book" id="book">
+
+      <!-- Open book interior -->
+      <div class="book-spread">
+
+        <section class="left-page">
+          <div class="left-decoration">
+            <span class="tiny-heart">♡</span>
+            <div class="flourish">✳</div>
+            <p class="left-note">a little reminder</p>
+            <div class="small-rule"></div>
+
+            <p class="left-quote">
+              Some people make ordinary moments feel a little more special.
+            </p>
+
+            <span class="tiny-heart bottom-heart">♡</span>
+          </div>
+
+          <span class="page-number left-number">♥</span>
+        </section>
+
+        <section class="right-page">
+
+          <!-- Page underneath -->
+          <div class="page-under page-face">
+            <div class="page-content" id="under-content"></div>
+          </div>
+
+          <!-- Turning page -->
+          <div class="page-front page-face" id="page-front">
+            <div class="page-content" id="front-content"></div>
+
+            <div class="page-back-decoration">
+              <span>♡</span>
+            </div>
+          </div>
+
+        </section>
+      </div>
+
+      <!-- Minimal photo-first cover -->
+      <div class="cover" id="cover">
+        <div class="cover-inner">
+
+          <div class="cover-top">
+            <span>♥</span>
+          </div>
+
+          <!-- Full picture, without a frame or extra captions -->
+          <div class="cover-photo">
+            <img
+              id="cover-image"
+              src="our-picture.jpg"
+              alt="Our picture together"
+            >
+
+            <div class="photo-placeholder" id="photo-placeholder">
+              <span>♡</span>
+            </div>
+          </div>
+
+          <!-- Just the title -->
+          <div class="cover-title">
+            <h1>When Two<br>Worlds Collide</h1>
+          </div>
+
+          <button class="open-book-button" id="open-book">
+            Swipe to begin ♥
+          </button>
+
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Book navigation -->
+  <section class="navigation">
+
+    <p class="chapter-label" id="chapter-label">
+      THE COVER
+    </p>
+
+    <div class="navigation-buttons">
+
+      <button
+        id="back-button"
+        class="back-button"
+        disabled
+      >
+        ← Back
+      </button>
+
+      <button
+        id="next-button"
+        class="next-button"
+      >
+        Turn the page ♥
+      </button>
+
+    </div>
+
+    <div class="progress-track">
+      <div id="progress-bar"></div>
+    </div>
+
+    <p class="swipe-hint" id="swipe-hint">
+      Swipe left or tap to turn the page
+    </p>
+
+  </section>
+
+  <footer>
+    made with love ♥
+  </footer>
+
+</body>
+</html>
